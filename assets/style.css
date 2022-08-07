@@ -41,19 +41,20 @@
 
 .menu {
     font-family: "Sofia Pro", "RotondaC", sans-serif;
-    font-weight: 400;
     font-size: 18px;
     border: 1px solid red;
 } /* Меню */
 
 .menu li {
     float: left;
-    padding: 0 0 10px 0;
+    padding: 10px 0 10px 0;
+    margin: 0 10px 0 0;
     position: relative;
+    text-align: center;
 } /* Пункты меню */
 
 .menu a {
-    float: left;
+    display: flexbox;
     height: 51px;
     width: 98px;
     padding: 0 0 0 45px;
@@ -84,6 +85,14 @@
     text-align: center;
     color: #333D37;
 } /* Главный заголовок */
+
+.sectioncontainer {
+    display: flex;
+}
+
+.articlecontainer {
+    
+}
 
 .img1,
 section, {
