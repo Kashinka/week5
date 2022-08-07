@@ -22,18 +22,19 @@
         url(./fonts/times.ttf);
 } /* Запасной шрифт для заголовка и текста страницы */
 
-#logo {
+.logo {
     position: absolute;
     width: 132px;
     height: 127px;
+    padding: 0 0 0 68px;
 } /* Логотип */
 
-#button {
+.button {
     border: 1px solid #219653;
     border-radius: 100px;
 } /* Кнопка "Войти" */
 
-#aside {
+.aside {
     float: right;
     clear: both;
     width: 295px;
