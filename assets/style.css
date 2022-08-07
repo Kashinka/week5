@@ -44,7 +44,7 @@
 .menucontainer {
     display: flex;
     padding: 27px 0 0 850px;
-}
+} /* Позиция меню */
 
 .menu {
     font-family: "Sofia Pro", "RotondaC", sans-serif;
