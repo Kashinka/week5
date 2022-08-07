@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Gerbera';
+    src: local('Gerbera'),
+        url(./fonts/Gerbera.ttf);
+} /* Шрифт для заголовка и текста страницы */
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro'),
+        url(./fonts/SofiaProRegular.ttf);
+} /* Шрифт для меню */
+
+@font-face {
+    font-family: 'RotondaC';
+    src: local('RotondaC'),
+        url(./fonts/rotondac.otf);
+} /* Запасной шрифт для меню */
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: local('Times New Roman'),
+        url(./fonts/times.ttf);
+} /* Запасной шрифт для заголовка и текста страницы */
+
+#logo {
+    width: 132px;
+    height: 127px;
+} /* Логотип */
+
+#button {
+    border: 1px solid #219653;
+    border-radius: 100px;
+} /* Кнопка "Войти" */
+
+#aside {
+    float: right;
+    clear: both;
+    width: 295px;
+    padding: 0 150px 0 0;
+    border: 1px solid red;
+} /* Колонка с текстом справа */
+
+/* #aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 342px;
+    border: 1px solid red;
+} /* Колонка с текстом справа */ */
+
+.menu {
+    float: right;
+    width: 574px;
+    height: 51px;
+    padding: 48px 48px 48px 48px;
+    list-style: none;
+    font-family: "Sofia Pro", "RotondaC", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid red;
+} /* Меню */
+
+.menu li {
+    float: left;
+    padding: 0 0 10px 0;
+    position: relative;
+} /* Пункты меню */
+
+.menu a {
+    float: left;
+    height: 51px;
+    width: 98px;
+    padding: 0 0 0 45px;
+    color: #6E6E6E;
+    font-style: normal;
+    text-decoration: none;
+} /* Ссылки меню */
+
+.menu li:hover>a {
+    color: #219653;
+} /* Выделение пунктов меню зеленым */
+
+.menu ul {
+    top: 35px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} /* Все пункты меню */
+
+.h1 {
+    padding: 50px 0 0 0;
+    font-family: "Gerbera", "Times New Roman", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #333D37;
+} /* Главный заголовок */
+
+.img1,
+section, {
+    display: flex;
+    border: 1px solid #red;
+} /* График */
+
+.wb {
+    width: 222.86px;
+    height: 26px;
+} /* Вайлдберриз */
+
+.ozon {
+    width: 120.53px;
+    height: 26px;
+} /* Озон */
+
+.p {
+    font-family: "Gerbera", "Times New Roman", sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5)
+} /* Текст в колонке справа в aside */
+
+.h3,
+h2 {
+
+    font-family: "Gerbera", "Times New Roman", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+} /* заголовки 2 и 3-го порядка */
