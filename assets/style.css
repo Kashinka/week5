@@ -54,7 +54,6 @@
 } /* Пункты меню */
 
 .menu a {
-    display: flexbox;
     height: 51px;
     width: 98px;
     padding: 0 0 0 45px;
@@ -87,9 +86,9 @@
 } /* Главный заголовок */
 
 .img1,
-.section, {
-    position: relative;
-    border: 1px solid #red;
+.section {
+    display: flex;
+    border: 1px solid red;
 } /* График */
 
 .wb {
