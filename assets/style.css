@@ -40,12 +40,12 @@
     border: 1px solid red;
 } /* Колонка с текстом справа */
 
-.flexcontainer {
-    
+.menucontainer {
+    display: flex;
+    padding: 0 0 0 800px;
 }
 
 .menu {
-    display: flexbox;
     font-family: "Sofia Pro", "RotondaC", sans-serif;
     font-weight: 400;
     font-size: 18px;
