@@ -40,21 +40,8 @@
     border: 1px solid red;
 } /* Колонка с текстом справа */
 
-/* #aside {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: stretch;
-    height: 342px;
-    border: 1px solid red;
-} /* Колонка с текстом справа */ */
-
 .menu {
-    float: right;
-    width: 574px;
-    height: 51px;
-    padding: 48px 48px 48px 48px;
-    list-style: none;
+    display: flexbox;
     font-family: "Sofia Pro", "RotondaC", sans-serif;
     font-weight: 400;
     font-size: 18px;
