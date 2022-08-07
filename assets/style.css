@@ -34,14 +34,6 @@
     border-radius: 100px;
 } /* Кнопка "Войти" */
 
-.aside {
-    float: right;
-    clear: both;
-    width: 295px;
-    padding: 0 150px 0 0;
-    border: 1px solid red;
-} /* Колонка с текстом справа */
-
 .menucontainer {
     display: flex;
     padding: 27px 0 0 850px;
@@ -122,3 +114,11 @@ h2 {
     font-weight: 700;
     font-size: 18px;
 } /* заголовки 2 и 3-го порядка */
+
+.aside {
+    float: right;
+    clear: both;
+    width: 295px;
+    padding: 0 150px 0 0;
+    border: 1px solid red;
+} /* Колонка с текстом справа */
