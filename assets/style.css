@@ -86,17 +86,9 @@
     color: #333D37;
 } /* Главный заголовок */
 
-.sectioncontainer {
-    display: flex;
-}
-
-.articlecontainer {
-    
-}
-
 .img1,
-section, {
-    display: flex;
+.section, {
+    position: relative;
     border: 1px solid #red;
 } /* График */
 
