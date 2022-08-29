@@ -17,17 +17,17 @@
 }
 
 .section {
-    width: 65%;
+    /* width: 65%; */
     background-color: #fff8e3;
 }
 
 .article {
-    width: 100%;
+    /* width: 100%; */
     background-color: #feeab9;
 }
 
 .aside {
-    width: 35%;
+    /* width: 35%; */
     align-self: flex-end;
     background-color: #ddeccb;
 }
