@@ -12,9 +12,9 @@
     background-color: #e0e0e0;
 }
 
-/* .center {
-    display: inline-flex;
-} */
+.center {
+    display: flex;
+}
 
 .section {
     width: 65%;
