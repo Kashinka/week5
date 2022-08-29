@@ -2,9 +2,9 @@
     display: flex;
 }
 
-.container, section, section article, aside, footer, .section__down {
-    border: 1px solid red;
-}
+/* .container, section, section article, aside, footer, .section__down {
+    border: 1px solid red; 
+} */
 
 .header {
     background-color: #e0e0e0;
