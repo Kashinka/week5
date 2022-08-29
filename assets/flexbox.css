@@ -1,3 +1,7 @@
 .container {
     display: flex;
 }
+
+.container, section, section article, aside, footer, .section__down {
+    border: 1px solid red;
+}
