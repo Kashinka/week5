@@ -29,6 +29,7 @@
 }
 
 .footer {
+    display: inline-flex;
     background-color: #e0e0e0;
 }
 
