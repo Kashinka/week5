@@ -30,6 +30,7 @@
 
 .article {
     /* width: 100%; */
+    display: flex;
     width: 45%;
     background-color: #feeab9;
 }
